@@ -26,9 +26,9 @@ fn main() -> Result<(), String> {
 
     println!("exit code: {:?}", b.code());
 
-    let b = fs::read_to_string(file_name).map_err(|e| format!("failed to read: {}", e))?;
+    let c = fs::read_to_string(file_name).map_err(|e| format!("failed to read: {}", e))?;
 
-    println!("is changed: {}", base_text != &b);
+    println!("is changed: {}", base_text != &c);
 
     Ok(())
 }

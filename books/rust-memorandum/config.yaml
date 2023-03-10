@@ -1,0 +1,8 @@
+title: "Rust備忘録"
+summary: "Rustで色々ためしたことを記録する"
+topics:
+  - Rust
+published: true
+price: 0
+chapters:
+  - 01-call-vim

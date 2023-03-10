@@ -8,7 +8,7 @@ CLI Toolを作るにあたって、`git commit`のようにviを呼び出せる�
 - [Running commands in rust (vim) - Stack Overflow](https://stackoverflow.com/questions/60255889/running-commands-in-rust-vim)
 
 
-```rust
+```rust:src/main.rs
 use std::fs;
 
 fn main() -> Result<(), String> {
